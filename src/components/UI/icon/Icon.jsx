@@ -1,7 +1,11 @@
+import './icon.css';
+
 function Icon(props) {
   let iconClassStr = 'fa fa-';
   iconClassStr += props.children;
   iconClassStr += props.size === 'lg' ? ' fa-5x' : ' fa-2x';
+  iconClassStr += props.dark ? ' inverted' : '';
+
   if (!props.children) {
     return <h3>Please add Icon class</h3>;
   }

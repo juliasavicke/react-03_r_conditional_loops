@@ -1,7 +1,8 @@
 import Condition from './components/Condition';
 
-import './App.css';
 import Icon from './components/UI/icon/Icon';
+import './App.css';
+import ArrayOfElements from './components/ArrayOfElements';
 
 function App() {
   return (
@@ -9,8 +10,9 @@ function App() {
       <h1>App</h1>
       {/* <Condition /> */}
       <Icon size='lg'>thermometer-quarter</Icon>
-      <Icon>thermometer-half</Icon>
-      <Icon>thermometer-full</Icon>
+      <Icon dark>thermometer-half</Icon>
+      <Icon color='light'>thermometer-full</Icon>
+      <ArrayOfElements />
     </div>
   );
 }

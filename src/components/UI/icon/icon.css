@@ -1,3 +1,9 @@
 .fa {
   font-size: 2rem;
 }
+.fa.inverted {
+  background-color: #333;
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+}
