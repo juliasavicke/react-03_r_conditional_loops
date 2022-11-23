@@ -1,0 +1,18 @@
+.numbersFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 80px 20px;
+  background-color: dodgerblue;
+  color: white;
+}
+.cardFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cardFlex h2 {
+  margin-bottom: 0;
+}

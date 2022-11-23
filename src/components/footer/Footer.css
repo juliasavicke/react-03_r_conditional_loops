@@ -1,0 +1,23 @@
+footer {
+  background-color: #333;
+  color: white;
+}
+.footerBottomText {
+  color: lightgray;
+  text-align: center;
+  padding: 20px 0;
+}
+.footerTopGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.followUsFlex {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.aboutUsList {
+  list-style-type: none;
+}

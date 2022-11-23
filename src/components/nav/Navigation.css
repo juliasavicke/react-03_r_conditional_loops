@@ -1,0 +1,18 @@
+.mainHeader {
+  background-color: #333;
+  color: white;
+}
+a {
+  padding: 1.5rem;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+a:hover {
+  background-color: #fff;
+  color: #333;
+}
+.active {
+  background-color: #fff;
+  color: #333;
+}
